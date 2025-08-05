@@ -38,14 +38,14 @@ export function AdminSidebar({ activeSection, onSectionChange }: AdminSidebarPro
       className={collapsed ? "w-14" : "w-60"}
       collapsible="icon"
     >
-      <SidebarTrigger className="m-2 self-end" />
+      <SidebarTrigger className="m-2 self-end mt-5" />
 
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel className="flex items-center gap-2">
-            <Shield className="h-4 w-4" />
+          {/* <SidebarGroupLabel className="flex items-center gap-2 mt-5">
+            <Shield className="h-4 w-4 " />
             {!collapsed && <span>Admin Panel</span>}
-          </SidebarGroupLabel>
+          </SidebarGroupLabel> */}
 
           <SidebarGroupContent>
             <SidebarMenu>
